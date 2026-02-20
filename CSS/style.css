@@ -212,19 +212,20 @@ nav {
   align-items: center;
   padding: 20px 0;
 }
-.logo {
+.Name {
   display: flex;
   align-items: center;      /* محاذاة عمودية مظبوطة */
   gap: 12px;                /* مسافة بسيطة ومريحة */
 
   font-size: 1.8rem;
   font-weight: 700;
-  line-height: 0;           /* 👈 أهم سطر يحل المشكلة */
+  line-height: normal;           /* 👈 أهم سطر يحل المشكلة */
 
   background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 }
 
 
@@ -246,7 +247,7 @@ nav {
 .nav-links a {
   text-decoration: none;
   color: var(--text-color);
-  font-weight: 500;
+  font-weight: 800;
   transition: color 0.3s;
   position: relative;
 }
